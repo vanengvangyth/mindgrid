@@ -2,6 +2,7 @@ import { LEVELS, STORAGE_KEY } from "../data/levels";
 import type { Progress } from "../types";
 
 export const EMPTY_PROGRESS: Progress = {
+  //unlockedLevel: LEVELS.length,
   unlockedLevel: 1,
   bestScores: {},
   bestTimes: {},
